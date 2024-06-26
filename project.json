@@ -1,0 +1,44 @@
+{
+  "androidResources": {
+    "manifest": "AndroidManifest.xml",
+    "resDir": "res"
+  },
+  "assets": [],
+  "build": {
+    "build_id": "F80646A2-2",
+    "build_number": 2,
+    "build_time": 1719412367381,
+    "release": false
+  },
+  "encryptLevel": 0,
+  "features": {
+    "activityIntentTasks": false,
+    "nodejs": "auto"
+  },
+  "launchConfig": {
+    "displaySplash": true,
+    "hideLogs": false,
+    "stableMode": false
+  },
+  "main": "main.js",
+  "name": "Node.js使用Android原生界面",
+  "optimization": {
+    "obfuscateComponents": false,
+    "removeAccessibilityService": false,
+    "removeOpenCv": false,
+    "unusedResources": false
+  },
+  "packageName": "com.example.ui.node.android",
+  "permissionConfig": {
+    "manifestPermissions": [
+      "android.permission.INTERNET",
+      "android.permission.WRITE_EXTERNAL_STORAGE",
+      "android.permission.WAKE_LOCK"
+    ],
+    "requestListOnStartup": []
+  },
+  "scripts": {},
+  "useFeatures": [],
+  "versionCode": 1,
+  "versionName": "1.0.0"
+}
